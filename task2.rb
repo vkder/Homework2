@@ -1,6 +1,2 @@
-array1 = [10]
-i = array1[0]
-while i <= 100
-	puts i
-	i += 5
-end
+arr = (10..100).step(5).to_a
+print arr
