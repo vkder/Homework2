@@ -1,6 +1,8 @@
-hash = {}
+vowels = {}
 
-letters = ('a'..'z').each_with_index do |val, index| 
-hash[val] = index + 1 if val =~ /[aeiouy]/
-end
-puts hash
+alfabet= ('a'..'z')
+alfabet.each_with_index { |value, index| vowels[value] = index + 1 if value =~ /[aeiou]/ }
+
+puts vowels
+
+
