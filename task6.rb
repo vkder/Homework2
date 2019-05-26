@@ -14,6 +14,5 @@ end
 
 amount.each {|name, new_hash| sum += new_hash["price"] * new_hash["count"]}
 
-
 puts amount
 puts "итого #{sum}"
