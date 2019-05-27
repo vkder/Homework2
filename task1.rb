@@ -14,7 +14,6 @@ months = {
 }
 
 months.each do |month, day|
-puts "30 дней в следующих месяцах #{month}" if day == 30
+  puts "30 дней в следующих месяцах #{month}" if day == 30
 end
 
-   
