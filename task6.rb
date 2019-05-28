@@ -15,7 +15,7 @@ sum_total = 0
 
 amount.each do |name, new_hash| sum_total += new_hash[:price] * new_hash[:count]
   sum = new_hash[:price] * new_hash[:count]
-  puts name
+  puts "#{name} - цена: #{new_hash[:price]}"
   puts "Price total: #{sum}"
 end
 

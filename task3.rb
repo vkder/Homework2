@@ -1,8 +1,8 @@
 fib = [0,1]
 
-while fib[-2] <= 34
-  next_fib = fib[-1] + fib[-2]
-  fib << next_fib
+while 100 > result = (fib[-1] + fib[-2])
+  fib << result
 end
 
 puts fib
+
